@@ -1,0 +1,139 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background: #232f3e;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ff9900;
+}
+
+.navbar button {
+  background: #ff9900;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar button:hover {
+  background: #e68a00;
+}
+
+/* Footer */
+footer {
+  background: #131a22;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  
+}
+.page-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.url-input-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.url-input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.url-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Login Page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #232f3e;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  background: #ff9900;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #e68a00;
+}
+
+/* Content Pages */
+.page-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.page-container h1 {
+  color: #232f3e;
+  margin-bottom: 15px;
+}
